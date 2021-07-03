@@ -1,0 +1,31 @@
+
+html{
+  background-color: black;
+  width: 1000px;
+  border: 5px solid yellow;
+}
+body{
+  background-color: blue;
+  width: 500px;
+  height: 500px;
+  margin: 30px;
+  padding: 30px;
+  border: 5px solid yellow;
+}
+
+.box1{
+  width: 50%;
+  height: 50%;
+  margin: 30px;
+  padding: 30px;
+  background-color: aqua;
+  border: 5px solid yellow;
+}
+.box2{
+  background-color: chartreuse;
+  width: 50%;
+  height: 50%;
+  margin: 30px;
+  padding: 30px;
+  border: 5px solid yellow;
+}
