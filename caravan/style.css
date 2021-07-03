@@ -8,14 +8,47 @@ header{
   height: 120px;
   background-color: red;
 }
+.header-top{
+  width: 100%;
+  height: 70px;
+  background-color: hotpink;
+}
+.header-bottom{
+  width: 100%;
+  height: 50px;
+  background-color: pink;
+}
 .main-visual{
   width: 100%;
   height: 300px;
   background-color: orange;
 }
 .sub-visual{
-  width: 30%;
+  width: 350px;
   height: 300px;
   background-color:grey;
   opacity: 0.5;
+}
+.main{
+  width: 840px;
+
+
+  display: flex;  /* Flexboxの利用(要素の横並び) */
+  justify-content: center; /* 子要素の横並び・中央寄せ */
+  margin: auto;
+}
+.blog{
+  width: 600px;
+  height: 600px;
+  background-color: lightgreen;
+}
+.sideber{
+  width: 240px;
+  height: 600px;
+  background-color: palegreen;
+}
+footer{
+  width: 100%;
+  height: 120px;
+  background-color: blue;
 }
