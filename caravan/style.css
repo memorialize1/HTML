@@ -6,22 +6,45 @@
 header{
   width: 100%;
   height: 120px;
-  background-color: red;
+  justify-content: center;
+  padding: 15px 0;
+  text-align: center;
+}
+.heading{
+font-size: 32px;
+
 }
 .header-top{
   width: 100%;
   height: 70px;
-  background-color: hotpink;
+
 }
 .header-bottom{
   width: 100%;
   height: 50px;
-  background-color: pink;
+}
+nav{
+  display: inline-block;
+}
+li{
+  display: inline-block;
+  margin: 10px;
+}
+.nav-list{
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+
+}
+.nav-list-item{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
 }
 .main-visual{
   width: 100%;
   height: 300px;
-  background-color: orange;
+
 }
 .sub-visual{
   width: 350px;
@@ -40,15 +63,15 @@ header{
 .blog{
   width: 600px;
   height: 600px;
-  background-color: lightgreen;
+
 }
 .sideber{
   width: 240px;
   height: 600px;
-  background-color: palegreen;
+
 }
 footer{
   width: 100%;
   height: 120px;
-  background-color: blue;
+
 }
